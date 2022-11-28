@@ -5,10 +5,10 @@ export default function Parte7() {
 		<div>
 			<H2 id="topico7">Quando utilizar?</H2>
 			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
-				consectetur dolores suscipit, iusto, nesciunt cum dignissimos, ducimus
-				soluta rem quam aut itaque assumenda at odio nemo iure dolorum
-				voluptate! Perferendis.
+				Optar por escolher Laravel ou não para construir aplicações web
+				dependerá da análise e projeto a ser feita do sistema. Entretanto, esse
+				framework será uma boa opção quando se pretende desenvolver sistemas
+				robustos e escaláveis.
 			</p>
 		</div>
 	);

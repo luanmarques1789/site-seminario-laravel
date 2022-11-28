@@ -11,7 +11,9 @@ import Parte8 from './Parte8';
 function TableOfContents() {
 	return (
 		<div className="border-4 p-5 my-10 ">
-			<p className="text-center text-2xl uppercase my-0">Sumário</p>
+			<p className="text-center text-2xl font-semibold text-custom-pink uppercase my-0">
+				Sumário
+			</p>
 			<ol className="p-0 ml-5 list-decimal m-0">
 				<li>
 					<a href="#topico1">

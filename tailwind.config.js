@@ -13,6 +13,7 @@ module.exports = {
 					red2: '#ED3B2F',
 					yellow: '#DBCB71',
 					'light-blue': '#8BE9FD',
+					pink: '#F92672',
 				},
 			},
 		},

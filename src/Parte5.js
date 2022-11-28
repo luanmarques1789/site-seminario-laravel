@@ -5,7 +5,7 @@ export default function Parte5() {
 	return (
 		<div>
 			<H2 id="topico5">Como instalar e usar?</H2>
-			<p>Requisitos</p>
+			<p>Requisitos:</p>
 			<ul>
 				<li>PHP (última versão)</li>
 				<li>Composer (gerenciador de dependências PHP)</li>
@@ -19,7 +19,9 @@ export default function Parte5() {
 
 			<p>Verificando se foi instalado corretamente:</p>
 
-			<Highlight>laravel --version</Highlight>
+			<Highlight>
+				laravel --version {'\n'}//saída de exemplo: Laravel Installer 4.2.17
+			</Highlight>
 
 			<p>
 				PS.: é apenas a versão do instalador do Laravel, não a versão do Laravel
@@ -29,10 +31,9 @@ export default function Parte5() {
 			<H3>Criando um projeto Laravel</H3>
 
 			<Highlight>
-				laravel new project-laravel //laravel new {'<'}nome-do-projeto{'>'}
+				laravel new {'<'}nome-do-projeto{'>'}
 			</Highlight>
 
-			<p>Mensagens de sucesso:</p>
 			<img
 				src="./assets/criando-um-projeto-laravel.png"
 				alt="Criando um projeto Laravel"
@@ -46,7 +47,6 @@ export default function Parte5() {
 
 			<Highlight>php artisan serve</Highlight>
 
-			<p>Saída: </p>
 			<img
 				src="./assets/running-laravel-artisan.png"
 				alt="EXecutando o projeto Laravel via Artisan"
@@ -54,8 +54,9 @@ export default function Parte5() {
 
 			<H3>Estrutura de diretório</H3>
 			<p>Pastas e arquivos mais importantes</p>
-			<pre>
-				{`
+			<pre className="overflow-auto">
+				<code>
+					{`
           .
           ├── app/
           │   ├── Http/
@@ -72,7 +73,8 @@ export default function Parte5() {
           ├── vendor/
           ├── .env
           ├── composer.json
-      `}
+					`}
+				</code>
 			</pre>
 		</div>
 	);

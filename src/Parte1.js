@@ -14,9 +14,9 @@ export default function Parte1() {
 				consistentes, flexíveis e reutilizáveis.
 			</p>
 			<p>
-				Ademais, o Laravel é utilizado para construir aplicações web full-stack
+				Ademais, Laravel é utilizado para construir aplicações web full-stack
 				modernas e escaláveis, tais como rotas, validação, cache, filas,
-				armazenamento de arquivo, e mais. Além isso, Laravel também pode servir
+				armazenamento de arquivo, e mais. Além disso, ele também pode servir
 				como uma API para aplicações mobile ou JavaScript single-page.
 			</p>
 		</div>

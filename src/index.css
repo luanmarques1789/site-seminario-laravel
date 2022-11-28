@@ -19,7 +19,7 @@
 	}
 
 	span.code-marker2 {
-		@apply text-custom-light-blue font-medium italic;
+		@apply text-custom-pink font-medium italic;
 	}
 }
 
@@ -51,17 +51,13 @@ hr {
 	@apply my-16;
 }
 
-table {
-	@apply table-auto;
-}
-
-/* thead {
-	@apply p-10;
+tr {
+	@apply text-left border-b border-gray-300;
 }
 
 tbody {
 	@apply p-10;
-} */
+}
 
 ul,
 ol {

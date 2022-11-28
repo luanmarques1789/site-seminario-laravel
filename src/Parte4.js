@@ -6,18 +6,27 @@ export default function Parte4() {
 		<div>
 			<H2 id="topico4">Quais recursos oferecem?</H2>
 			<ul>
-				<li>Utiliza o gerenciador de pacotes Composer</li>
-				<li>Sistemas de template Blade</li>
-				<ul>
-					<li>Flexível</li>
-					<li>Propõe minimizar o uso de código PHP incorporado ao HTML</li>
-				</ul>
+				<li>
+					<span className="code-marker2 font-medium ">Migrations</span>: para
+					criação e alteração de tabelas no banco de dados;
+				</li>
+				<li>
+					<span className="code-marker2 font-medium ">Eloquent</span>: para
+					trabalhar com os dados do banco de dados de forma simples e eficiente;
+				</li>
+				<li>
+					<span className="code-marker2 font-medium ">Blade</span>: para criação
+					de templates de forma simples;
+				</li>
+				<li>
+					<span className="code-marker2 font-medium ">Homestead</span>: para
+					criar um ambiente de desenvolvimento completo e isolado
+				</li>
 			</ul>
 			<p>
 				Ademais, o Laravel fornece suporte nativo para os bancos de dados
 				populares, como o MySQL, PostgreSQL, SQLite e SQL Server.
 			</p>
-			<p>Já vem com um ambiente configurado para dar suporte para ao Vue.js</p>
 			<H3>Artisan</H3>
 			<p>
 				Artisan é uma interface de linha de comando embutido ao Laravel. Com

@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'react-highlight/node_modules/highlight.js/styles/github.css';
+import 'react-highlight/node_modules/highlight.js/styles/monokai.css';
+//obisidian
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
