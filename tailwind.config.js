@@ -8,8 +8,11 @@ module.exports = {
 				poppins: ['Poppins', 'sans-serif'],
 			},
 			colors: {
-				orange: {
-					tone1: '#ED3B2F',
+				custom: {
+					red1: '#F9322C',
+					red2: '#ED3B2F',
+					yellow: '#DBCB71',
+					'light-blue': '#8BE9FD',
 				},
 			},
 		},

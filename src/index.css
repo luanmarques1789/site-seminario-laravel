@@ -9,19 +9,45 @@
 	.to-sky-custom {
 		--tw-gradient-to: #0a4466;
 	}
+
+	.toc-list ol li a span {
+		@apply text-red-600;
+	}
+
+	span.title {
+	}
+
+	span.code-marker {
+		@apply text-custom-yellow font-medium italic;
+	}
+
+	span.code-marker2 {
+		@apply text-custom-light-blue font-medium italic;
+	}
 }
 
 * {
-	@apply text-white text-lg;
+	@apply text-white text-lg font-poppins;
 }
 
 body {
-	@apply w-full bg-slate-50 flex justify-center flex-wrap;
-	@apply bg-gradient-to-tr bg-fixed from-[#002E40] to-sky-custom;
+	@apply w-full bg-gray-800 flex justify-center flex-wrap;
+}
+
+img {
+	@apply my-10;
 }
 
 p {
-	@apply indent-10 text-justify;
+	@apply indent-10 text-justify my-6;
+}
+
+a {
+	@apply text-custom-light-blue;
+}
+
+span {
+	font-size: inherit;
 }
 
 hr {
@@ -29,13 +55,33 @@ hr {
 }
 
 table {
-	@apply w-full;
+	@apply table-auto;
 }
 
-thead {
+/* thead {
 	@apply p-10;
 }
 
 tbody {
 	@apply p-10;
+} */
+
+ul,
+ol {
+	@apply mb-6;
+	padding-inline-start: 2ch;
+}
+
+ul {
+	list-style: disc;
+}
+
+ul > ul {
+	list-style: circle;
+}
+li {
+	@apply my-2;
+}
+pre code {
+	@apply my-5 rounded-lg;
 }

@@ -1,9 +1,15 @@
-import { H2 } from './components/Title/Titles';
+import { H2 } from './components/Titles/Titles';
 
 export default function Parte3() {
 	return (
 		<div>
-			<H2>Vantagens e Desvanatgens</H2>
+			<H2 id="topico3">Vantagens e Desvantagens</H2>
+			<p>
+				De fato, Laravel possui muitos pontos fortes a serem considerados ao
+				optar por um framework de desenvolvimento web. Contudo, assim como
+				qualquer outra tecnologia, ele tem os seus pontos fracos. Na tabela
+				abaixo, nota-se as suas vantagens e desvantagens.
+			</p>
 			<table className="table-auto">
 				<thead>
 					<tr>
